@@ -30,15 +30,13 @@ const imageHeader = () => {
 
   return (
     <div className='flex items-centre mb-8'>
-      <img src="https://images.app.goo.gl/wZw3UWbGGm4ZCkbP8" alt="" />
-      <img src="" alt="" />
-
+      {/* <img src="https://images.app.goo.gl/wZw3UWbGGm4ZCkbP8" alt="" />
+      <img src="" alt="" /> */}
 
       <div className='w-[350px]'>
 
         <form className='mb-5' onSubmit={handleSumbit} action="">
                         <Iput  inputValue={inputValue} setInputValue={setInputValue} type='text'/>
-          {/* <input type="text" name="" id="" value={inputValue} className='w-full p-2 rounded-sm mb-2' onChange={(event)=>setInputValue(event.target.value)} /> */}
 
 <Btn   className='bg-gray-700 w-full p-2'>ADD </Btn>
         </form>

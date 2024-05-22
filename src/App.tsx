@@ -11,11 +11,12 @@ function App() {
   
 
   return (
-   <div className='h-[100] flex flex-col justify-center  items-center' >
-<Image />
+<div className='h-screen flex flex-col justify-center items-center'>
+<h3 className='flex items-center mb-5 text-3xl font-bold text-white-600'>To-Do List</h3>
 
+  <Image />
+</div>
 
-   </div>
   )
 }
 

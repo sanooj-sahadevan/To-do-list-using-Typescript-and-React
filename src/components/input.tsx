@@ -10,7 +10,15 @@ type Input = {
 const input = ({type, inputValue, setInputValue }:Input) => {
     return (
         <div>
-            <input type={type} name="" id="" value={inputValue} className='w-full p-2 rounded-sm mb-2' onChange={(event) => setInputValue(event.target.value)} />
+<input
+  type={type}
+  name=""
+  id=""
+  placeholder="Enter your task"
+  value={inputValue}  className="w-full p-2 rounded-sm mb-2"
+  style={{ textAlign: 'center' }}
+  onChange={(event) => setInputValue(event.target.value)}
+/>
 
         </div>
     )
